@@ -1,0 +1,88 @@
+/* Botões Interativos */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--necxus-space-6);
+  height: 48px;
+  border-radius: var(--necxus-radius-lg);
+  font-family: var(--necxus-font-family-heading);
+  font-weight: 600;
+  font-size: var(--necxus-font-size-sm);
+  transition: all var(--necxus-transition-normal);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  position: relative;
+  overflow: hidden;
+  gap: var(--necxus-space-2);
+}
+
+.btn-primary {
+  background-color: var(--necxus-color-accent);
+  color: var(--necxus-color-text-inverse);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-primary:hover {
+  background-color: var(--necxus-color-accent-hover);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.4);
+  transform: translateY(-2px);
+}
+
+.btn-cyan {
+  background-color: var(--necxus-color-accent-cyan);
+  color: var(--necxus-color-text-inverse);
+  font-weight: 700;
+}
+
+.btn-cyan:hover {
+  background-color: #0891b2;
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.4);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--necxus-color-text-secondary);
+  border: 1px solid var(--necxus-color-border);
+}
+
+.btn-secondary:hover {
+  border-color: var(--necxus-color-border-hover);
+  color: var(--necxus-color-text-primary);
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+/* Quiz Options */
+.option-btn {
+  width: 100%;
+  min-height: 54px;
+  padding: var(--necxus-space-4) var(--necxus-space-6);
+  border-radius: var(--necxus-radius-lg);
+  background-color: var(--necxus-color-bg-tertiary);
+  border: 1px solid var(--necxus-color-border);
+  color: var(--necxus-color-text-secondary);
+  text-align: left;
+  font-size: var(--necxus-font-size-base);
+  transition: var(--necxus-transition-fast);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: var(--necxus-space-4);
+}
+
+.option-btn:hover {
+  border-color: var(--necxus-color-border-hover);
+  color: var(--necxus-color-text-primary);
+  background-color: rgba(99, 102, 241, 0.05);
+}
+
+.option-btn.selected {
+  border-color: var(--necxus-color-accent);
+  background-color: rgba(99, 102, 241, 0.1);
+  color: var(--necxus-color-text-primary);
+}

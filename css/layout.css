@@ -1,0 +1,51 @@
+@import 'header.css';
+@import 'footer.css';
+
+/* Layout Geral */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--necxus-space-6);
+}
+
+.section {
+  padding: var(--necxus-space-16) 0;
+  position: relative;
+}
+
+/* Grids & Flex */
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--necxus-space-8);
+  align-items: center;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--necxus-space-6);
+}
+
+@media (min-width: 768px) {
+  .grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.manifesto-block {
+  border-left: 3px solid var(--necxus-color-accent);
+  padding-left: var(--necxus-space-6);
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media (max-width: 767px) {
+  .manifesto-block {
+    padding-left: var(--necxus-space-4);
+  }
+}

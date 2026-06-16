@@ -1,0 +1,13 @@
+# Governança do Projeto
+GEMINI.md
+DESIGN.md
+AGENTS.md
+CLAUDE.md
+
+# Pasta dos Agentes / IA
+.gemini/
+tools/
+
+# Capturas de tela e prints na raiz
+Captura de tela *.png
+Captura de tela*.png

@@ -1,0 +1,47 @@
+/* Inputs & Form */
+.form-group {
+  margin-bottom: var(--necxus-space-6);
+  text-align: left;
+}
+
+.form-label {
+  display: block;
+  font-size: var(--necxus-font-size-sm);
+  color: var(--necxus-color-text-secondary);
+  margin-bottom: var(--necxus-space-2);
+  font-weight: 500;
+}
+
+.input-field {
+  width: 100%;
+  height: 48px;
+  padding: 0 var(--necxus-space-4);
+  border-radius: var(--necxus-radius-lg);
+  background-color: var(--necxus-color-bg-tertiary);
+  border: 1px solid var(--necxus-color-border);
+  color: var(--necxus-color-text-primary);
+  transition: var(--necxus-transition-fast);
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: var(--necxus-color-accent);
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.2);
+}
+
+/* Progress Bar */
+.progress-container {
+  width: 100%;
+  height: 6px;
+  background-color: var(--necxus-color-bg-tertiary);
+  border-radius: var(--necxus-radius-full);
+  margin-bottom: var(--necxus-space-8);
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--necxus-color-accent), var(--necxus-color-accent-cyan));
+  transition: width var(--necxus-transition-normal);
+}
