@@ -2,10 +2,10 @@ const projects = [
   {
     title: "Sandra Domingues",
     category: "Estética Corporal e Saúde Avançada",
-    challenge: "Transmitir autoridade de mercado e expertise clínica em tratamentos de diástase e pós-operatório de forma sóbria e elegante, atraindo agendamentos locais qualificados de ticket elevado em Itapeva - SP.",
-    solution: "Site institucional multipágina com tempo de resposta ágil, galeria interativa de antes/depois (\"before-after slider\" com controle deslizante), barra de busca e filtragem dinâmica sem recarregamento para os 24 serviços da clínica.",
-    result: "Consolidação do posicionamento da marca regionalmente, redução drástica no tempo de suporte inicial por meio de filtragem ativa de serviços no próprio site e captação qualificada via WhatsApp.",
-    stack: "HTML5 • CSS Moderno • Vanilla JS • Slider Interativo",
+    challenge: "A dificuldade era mostrar autoridade e profissionalismo na internet, atraindo agendamentos para a clínica em Itapeva - SP.",
+    solution: "Criamos um site com galeria de antes/depois fácil de usar e um sistema simples de busca para os 24 serviços da clínica.",
+    result: "A marca se consolidou na região e o tempo respondendo dúvidas básicas diminuiu, já que o site guia o cliente direto para o WhatsApp.",
+    stack: "Destaque: Experiência interativa e facilidade de busca",
     image: "assets/sandradomingues.webp",
     link: "https://sandradomingues.com.br",
     cta: "Conhecer Tratamentos e Agendar Consulta"
@@ -13,10 +13,10 @@ const projects = [
   {
     title: "Hara Palace Hotel",
     category: "Hotelaria e Turismo",
-    challenge: "Alta dependência de plataformas de reservas terceirizadas (OTAs como Booking e Decolar) que cobram comissões abusivas, reduzindo a rentabilidade direta das reservas do hotel em Curitiba - PR.",
-    solution: "Landing page de alta performance construída em Next.js focada em conversão direta, implementando um fluxo interativo de cotação de reservas (check-in, check-out, hóspedes e quartos) conectado ao canal direto de vendas no WhatsApp.",
-    result: "Redução expressiva de custos transacionais em comissões, acentuação do fluxo interno de reservas diretas e apresentação mais clara dos diferenciais do hotel.",
-    stack: "Next.js • React • CSS Moderno • Integração WhatsApp",
+    challenge: "O hotel dependia muito de sites de reservas terceirizados, que cobravam comissões altas e reduziam o lucro direto.",
+    solution: "Criamos uma página focada em reservas diretas, com um sistema simples para consultar check-in, check-out e enviar os dados para o WhatsApp do hotel.",
+    result: "Redução de custos com comissões e aumento da proximidade com o hóspede, que agora faz a reserva com mais facilidade.",
+    stack: "Destaque: Integração com WhatsApp e navegação rápida",
     image: "assets/mobile_first.webp",
     link: "https://hotelhara.vercel.app/",
     cta: "Realizar Cotação de Reserva Direta"
@@ -24,10 +24,10 @@ const projects = [
   {
     title: "Almeida & Associados",
     category: "Advocacia Corporativa Boutique",
-    challenge: "Construir credibilidade visual e autoridade técnica para sócios e diretores de empresas de médio e grande porte em São Paulo - SP, respeitando as estritas diretrizes éticas da OAB.",
-    solution: "Site institucional estático desenvolvido em Astro, com tipografia geométrica refinada, seções claras de especialidades jurídicas (societário, holding e contencioso complexo) e chamadas discretas para consultas presença ou remotas.",
-    result: "Carregamento ultra-rápido de páginas (nota máxima no Lighthouse), fortalecimento da marca em canais de tráfego corporativo B2B e qualificação prévia de leads jurídicos.",
-    stack: "Astro • HTML5 • Tailwind CSS • SEO Otimizado",
+    challenge: "Era preciso passar credibilidade e confiança para empresas de médio e grande porte, seguindo todas as regras éticas da OAB.",
+    solution: "Desenvolvemos um site muito limpo e direto, onde as especialidades jurídicas são apresentadas com clareza e sem poluição visual.",
+    result: "O site hoje abre num piscar de olhos e passa a imagem de um escritório moderno e eficiente para novos clientes corporativos.",
+    stack: "Destaque: Leitura agradável e agilidade de carregamento",
     image: "assets/desenvolvimento.webp",
     link: "https://almeida-associados-advocacia.vercel.app/",
     cta: "Agendar Consulta Jurídica Técnica"
@@ -35,10 +35,10 @@ const projects = [
   {
     title: "Bento Express Premium",
     category: "Gastronomia Contemporânea e Culinária Japonesa",
-    challenge: "Dependência extrema de taxas de comissão e falta de controle da identidade visual em aplicativos de delivery como o iFood na região da Av. Paulista.",
-    solution: "Landing page responsiva ultra-leve com design focado em mobile, otimização de imagens em formatos de última geração com lazy loading, cardápio digital condensado e chamadas diretas de \"Peça pelo WhatsApp\".",
-    result: "Aumento de margens de lucro operacionais em pedidos diretos e rapidez na atualização diária dos pratos em destaque.",
-    stack: "HTML5 • CSS Puro • Vanilla JS • Otimização de Imagens",
+    challenge: "O restaurante dependia de aplicativos de delivery e não tinha controle total sobre sua vitrine online.",
+    solution: "Criamos um cardápio digital super leve para celular. As imagens abrem na hora e o pedido vai direto para a cozinha pelo WhatsApp.",
+    result: "Pedidos diretos aumentaram, melhorando o lucro e dando liberdade para atualizar os pratos oferecidos em tempo real.",
+    stack: "Destaque: Imagens abrem rápido e pedidos em um clique",
     image: "assets/bento-restaurant.webp",
     link: "https://bento-restaurant.vercel.app/",
     cta: "Visualizar Cardápio e Fazer Pedido"
@@ -46,10 +46,10 @@ const projects = [
   {
     title: "FitLife Studio",
     category: "Personal Trainer e Academia Boutique",
-    challenge: "Quebrar o receio e a desconfiança de pessoas sedentárias em relação a academias barulhentas convencionais, incentivando o agendamento de uma sessão experimental gratuita.",
-    solution: "Landing page interativa com quiz de diagnóstico físico rápido de 1 minuto (perguntas sobre rotina, objetivos e histórico de lesões), gerando um incentivo personalizado de conversão no WhatsApp.",
-    result: "Coleta prévia dos objetivos do aluno para preparação do treino experimental, diminuindo a resistência inicial e aumentando a taxa de conversão em matrículas presenciais.",
-    stack: "HTML5 • Vanilla CSS • JavaScript Interativo (Quiz)",
+    challenge: "As pessoas se sentiam intimidadas por academias convencionais. Era preciso um digital que acolhesse esse público.",
+    solution: "Fizemos uma página amigável com um quiz rápido que entende a rotina da pessoa antes mesmo de ela falar com o treinador.",
+    result: "Os alunos chegam mais à vontade para a primeira aula, pois o professor já sabe o que eles precisam antes do primeiro \"olá\".",
+    stack: "Destaque: Assistente virtual amigável",
     image: "assets/triagem_virtual.webp",
     link: "https://rafalaxl.github.io/SportsActivity/",
     cta: "Realizar Diagnóstico Físico Gratuito"
@@ -57,10 +57,10 @@ const projects = [
   {
     title: "O Sonhador",
     category: "Web Game e Storytelling Interativo",
-    challenge: "Demonstrar capacidade técnica front-end extrema criando uma rica narrativa interativa controlada a 60 quadros por segundo no navegador de qualquer dispositivo, sem depender de motores de jogos pesados.",
-    solution: "Desenvolvimento de aplicação Canvas HTML5 de alta fidelidade e física de partículas atmosféricas, controlada inteiramente por código nativo e Vanilla JS.",
-    result: "Showcase de criatividade técnica, tempo de carregamento imediato por não utilizar frameworks e alta taxa de retenção e exploração do usuário.",
-    stack: "Canvas HTML5 • Vanilla JS • Física de Partículas",
+    challenge: "Mostrar como a internet pode ser criativa e fluida, através de um projeto que conta uma história na tela.",
+    solution: "Criamos uma experiência de história interativa que não trava, usando apenas tecnologias básicas da web.",
+    result: "Um projeto que encanta as pessoas logo nos primeiros segundos, provando que sites também podem contar histórias.",
+    stack: "Destaque: Visual e movimento natural",
     image: "assets/animacao_.webp",
     link: "https://rafalaxl.github.io/story/",
     cta: "Iniciar Jornada Interativa"
@@ -68,10 +68,10 @@ const projects = [
   {
     title: "Dr. Marcos",
     category: "Medicina Estética e Transplante Capilar",
-    challenge: "Estabelecer um posicionamento exclusivo de autoridade médica premium para calvície em São Paulo, distanciando-se de clínicas populares de baixo valor e cirurgias em massa.",
-    solution: "Landing page de alta sofisticação em tons escuros e dourado, com explicações animadas do Protocolo Precision-Graft e triagem digital integrada de pacientes para avaliações seletivas.",
-    result: "Qualificação prévia de pacientes potenciais por orçamento e gravidade de alopecia, fortalecendo a percepção de exclusividade e otimizando a agenda do médico.",
-    stack: "Vite • HTML5 • CSS Moderno • Formulário de Triagem",
+    challenge: "O médico precisava de uma imagem profissional que transmitisse confiança aos pacientes em São Paulo.",
+    solution: "Montamos uma página elegante e discreta, que faz algumas perguntas iniciais para facilitar a conversa antes da consulta.",
+    result: "O médico consegue organizar melhor sua agenda e o paciente se sente acolhido e bem informado logo de início.",
+    stack: "Destaque: Atendimento inteligente e elegância",
     image: "assets/clinica-esteticas_marcos.webp",
     link: "https://rafalaxl.github.io/clinica-esteticas/",
     cta: "Verificar Elegibilidade de Transplante"
@@ -79,10 +79,10 @@ const projects = [
   {
     title: "Iron Vault Academy",
     category: "Musculação de Alta Performance",
-    challenge: "Atrair atletas dedicados e praticantes sérios de musculação que buscam treinar com foco real em maquinários importados, sem revezamentos frequentes ou superlotação.",
-    solution: "Landing page de design agressivo em tons Obsidian e tipografia Space Grotesk, com tabela comparativa de planos (mensal, semestral e anual) e imagens em alta definição que detalham os equipamentos e ambiente.",
-    result: "Aumento de matrículas em planos de longo prazo (anual) e atração direcionada do perfil de aluno ideal para o espaço físico da academia.",
-    stack: "HTML5 • CSS Custom Properties • Tailwind CSS • Space Grotesk Font",
+    challenge: "A academia precisava se conectar com alunos mais focados, mostrando a qualidade do espaço antes deles visitarem.",
+    solution: "Uma página com fotos muito claras dos equipamentos e uma tabela simples mostrando os planos, sem letras miúdas.",
+    result: "Os alunos chegam na academia já decididos e confiantes na qualidade do local, facilitando o trabalho da recepção.",
+    stack: "Destaque: Visual imersivo e clareza de informações",
     image: "assets/iron-valt.webp",
     link: "https://rafalaxl.github.io/iron-valt-landing/",
     cta: "Agendar Treino Experimental na Academia"
@@ -90,10 +90,10 @@ const projects = [
   {
     title: "Eclipse Tattoo Studio",
     category: "Estúdio de Tatuagem Boutique",
-    challenge: "Eliminar contatos desqualificados que apenas buscavam preços baixos e agilizar o processo de orçamento com coleta prévia de referências visuais e ideias de arte.",
-    solution: "Landing page em Tailwind CSS estruturada em tons escuros e dourados elegantes, exibindo portfólio categorizado por estilo dos artistas e formulário avançado de briefing com envio de referências.",
-    result: "Aumento do valor médio cobrado por tatuagem, eliminação de tempo gasto com propostas incompletas e facilidade de triagem dos projetos artísticos.",
-    stack: "Tailwind CSS • HTML5 • JavaScript • Upload Briefing System",
+    challenge: "O estúdio perdia muito tempo trocando mensagens soltas no WhatsApp para conseguir entender a ideia da tatuagem do cliente.",
+    solution: "Fizemos uma página onde o cliente já envia as fotos de referência e o que deseja, organizando tudo para o artista.",
+    result: "Orçamentos mais rápidos, artistas com mais tempo para desenhar e clientes muito mais satisfeitos com a agilidade.",
+    stack: "Destaque: Formulário focado em ajudar o negócio",
     image: "assets/rafalaxl.github.io_eclipse-tattoo-studio_.webp",
     link: "https://rafalaxl.github.io/eclipse-tattoo-studio/",
     cta: "Solicitar Orçamento de Tatuagem Exclusiva"
@@ -101,10 +101,10 @@ const projects = [
   {
     title: "Blue Server Academy",
     category: "Educação de Elite em Engenharia e IA",
-    challenge: "Demonstrar profunda autoridade técnica para convencer gerentes de engenharia, tech leads e desenvolvedores seniores a se inscreverem em uma mentoria avançada de automação e agentes autônomos.",
-    solution: "Landing page de alta fidelidade técnica desenvolvida com biblioteca GSAP e ScrollTrigger para animações, cursor interativo que interage com os elementos da tela e layout ultra-moderno inspirado na estética de grandes empresas de tecnologia de IA.",
-    result: "Alta conversão de profissionais seniores qualificados nas turmas e fortalecimento do posicionamento educacional premium da academia no ecossistema tech.",
-    stack: "HTML5 • CSS Puro • GSAP • ScrollTrigger • Vanilla JS",
+    challenge: "O projeto precisava mostrar autoridade e conhecimento para professores e profissionais da área da tecnologia.",
+    solution: "Fizemos uma página que interage de forma sutil com o cursor do mouse e guia o leitor pelo conteúdo de forma natural.",
+    result: "A academia ganhou credibilidade, mostrando na prática o que ensina e facilitando a comunicação com os alunos.",
+    stack: "Destaque: Interações e animações leves",
     image: "assets/blue-server.webp",
     link: "https://rafalaxl.github.io/blue-server/dist/",
     cta: "Conhecer Grade da Mentoria de Elite"
@@ -122,9 +122,9 @@ if (grid) {
         <div>
           <span class="text-xs text-muted font-heading" style="text-transform: uppercase; letter-spacing: 0.1em; display:block; margin-bottom: var(--necxus-space-2);">${p.category}</span>
           <h3 class="card-title" style="margin-bottom:var(--necxus-space-3);">${p.title}</h3>
-          <p class="text-muted text-sm" style="margin-bottom: var(--necxus-space-3);"><strong>Desafio:</strong> ${p.challenge}</p>
-          <p class="text-muted text-sm" style="margin-bottom: var(--necxus-space-3);"><strong>Solução:</strong> ${p.solution}</p>
-          <p class="text-primary text-sm" style="margin-bottom: var(--necxus-space-4);"><strong>Resultado:</strong> ${p.result}</p>
+          <p class="text-muted text-sm" style="margin-bottom: var(--necxus-space-3);"><strong>O Problema:</strong> ${p.challenge}</p>
+          <p class="text-muted text-sm" style="margin-bottom: var(--necxus-space-3);"><strong>A Solução:</strong> ${p.solution}</p>
+          <p class="text-primary text-sm" style="margin-bottom: var(--necxus-space-4);"><strong>A Transformação:</strong> ${p.result}</p>
         </div>
         <div>
           <div class="text-xs font-heading text-muted" style="margin-bottom: var(--necxus-space-4); min-height:32px;">${p.stack}</div>

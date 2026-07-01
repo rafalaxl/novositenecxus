@@ -7,21 +7,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const steps = [
     { t: "Qual é o principal objetivo do seu novo site?", f: "obj", p: "30%", o: [
-      "Landing Page de Alta Conversão (Ideal para vender um produto/serviço específico com tráfego pago)",
-      "Site Institucional Premium (Para consolidar minha marca, portfólio e autoridade no mercado)",
-      "Redesenho Completo (Tenho um site lento em WordPress e preciso reconstruí-lo do zero)",
+      "Apresentar um serviço ou produto específico de forma clara e direta",
+      "Ter um espaço oficial para minha marca que passe confiança e profissionalismo",
+      "Melhorar um site que já tenho e que hoje me dá mais dor de cabeça do que ajuda",
       "Outro Projeto Personalizado"
     ]},
-    { t: "Qual o maior gargalo técnico do seu posicionamento digital hoje?", f: "tech", p: "50%", o: [
-      "Meu site atual demora muito para abrir e perco dinheiro nas campanhas de anúncios",
-      "Dependo de agências ou programadores terceirizados para alterar textos ou links simples",
-      "Meu design atual parece amador ou ultrapassado e não passa confiança para o cliente",
-      "Não tenho um site no ar e preciso começar da forma técnica correta"
+    { t: "Qual é a sua maior dificuldade com o digital hoje?", f: "tech", p: "50%", o: [
+      "A tecnologia me confunde e eu acabo perdendo tempo tentando entender",
+      "Dependo de outras pessoas para fazer mudanças simples e isso atrasa meu trabalho",
+      "Sinto que minha empresa não passa a imagem profissional que tem no mundo real",
+      "Não tenho presença digital e não sei por onde começar"
     ]},
-    { t: "Qual o orçamento planejado para investimento neste projeto?", f: "budget", p: "70%", o: [
-      "R$ 3.000 a R$ 5.000 (Ideal para landing pages de alta conversão)",
-      "R$ 5.000 a R$ 10.000 (Ideal para sites institucionais multipáginas premium)",
-      "Acima de R$ 10.000 (Ideal para projetos robustos de alta complexidade)",
+    { t: "Qual o nível de investimento planejado para esse passo digital?", f: "budget", p: "70%", o: [
+      "R$ 3.000 a R$ 5.000 (Ideal para uma página objetiva e clara)",
+      "R$ 5.000 a R$ 10.000 (Ideal para um site completo e estruturado)",
+      "Acima de R$ 10.000 (Ideal para integração de sistemas e projetos complexos)",
       "Estou apenas pesquisando preços no momento"
     ]},
     { t: "Em quanto tempo você precisa deste site no ar?", f: "time", p: "90%", o: [
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function runLoading() {
-    const msgs = ["Processando suas respostas...", "Avaliando compatibilidade técnica com a stack Vite...", "Verificando disponibilidade na agenda de desenvolvimento...", "Montando resumo do diagnóstico..."];
+    const msgs = ["Processando suas respostas...", "Pensando na melhor estrutura para facilitar o seu dia a dia...", "Verificando o diagnóstico da sua marca...", "Montando um resumo com a melhor solução..."];
     let idx = 0;
     container.innerHTML = `
       <div style="text-align:center; padding:var(--necxus-space-8);">
@@ -119,20 +119,20 @@ document.addEventListener('DOMContentLoaded', () => {
       `- Empresa: ${state.ans.company}\n` +
       `- E-mail: ${state.ans.email}\n` +
       `- Objetivo do site: ${state.ans.obj}\n` +
-      `- Gargalo técnico: ${state.ans.tech}\n` +
+      `- Maior dificuldade: ${state.ans.tech}\n` +
       `- Investimento planejado: ${state.ans.budget}\n` +
       `- Prazo de entrega: ${state.ans.time}\n\n` +
-      `Gostaria de agendar uma breve conversa para validar a viabilidade técnica e reservar a minha vaga na agenda de desenvolvimento.`;
+      `Gostaria de agendar um bate-papo para entendermos juntos como o digital pode ser um verdadeiro aliado para a minha marca.`;
 
     container.innerHTML = `
       <div class="quiz-step">
-        <h2 class="text-xl font-heading" style="margin-bottom: var(--necxus-space-4); color: var(--necxus-color-text-primary);">Triagem Concluída com Sucesso!</h2>
+        <h2 class="text-xl font-heading" style="margin-bottom: var(--necxus-space-4); color: var(--necxus-color-text-primary);">Tudo pronto!</h2>
         <p class="text-secondary" style="margin-bottom: var(--necxus-space-8); line-height: 1.6;">
-          Analisamos as características do seu projeto e ele é altamente compatível com a nossa metodologia de alta performance. O fundador da Necxus, Rafael, está disponível para analisar pessoalmente seu diagnóstico.<br><br>
-          Clique no botão abaixo para ser direcionado ao WhatsApp do Rafael com o resumo das suas respostas já preenchido.
+          Analisamos as suas respostas e temos um ótimo caminho para te ajudar com o seu ambiente digital. O Rafael irá te atender pessoalmente agora.<br><br>
+          Clique no botão abaixo para conversar no WhatsApp. Um resumo das suas respostas já estará preenchido para facilitar nosso contato.
         </p>
         <a href="https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener noreferrer" class="btn btn-cyan" style="width: 100%; text-decoration: none; display: flex; align-items: center; justify-content: center;">
-          Enviar Diagnóstico para o WhatsApp do Rafael
+          Falar com o Rafael pelo WhatsApp
         </a>
       </div>`;
   }
